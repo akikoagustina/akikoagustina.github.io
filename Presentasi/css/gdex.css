@@ -1,6 +1,7 @@
 .navbar-custom.affix {
     background-color: rgb(63, 36, 136);
 }
+
 section h2.section-heading {
     color: #3f2488;
 }
@@ -9,7 +10,11 @@ section h2.section-heading {
     text-transform: none;
     color: #3f2488;
 }
-section h3.section-heading {color: #3f2488;
+section h3.section-heading {
+    color: #3f2488;
+}
+section h3.section-subheading {
+    margin-bottom: 40px;
 }
 header {
     background-image: url(../img/cover5.jpg);
@@ -33,10 +38,12 @@ header {
     -moz-transition: all .3s;
     transition: all .3s;
 }
-p {
+.p {
     font-size: 16px;
-    line-height: 1.75;
+    line-height: 1.2;
+    margin: 0 0 1px;
 }
+
 .tracking {
     height: 170px;
 }
